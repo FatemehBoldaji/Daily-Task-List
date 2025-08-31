@@ -1,0 +1,43 @@
+.add-task-btn {
+  color: var(--action-btn-color);
+  background-color: var(--bg-btn);
+  border-radius: 4px;
+  padding: 7px;
+  font-family: sans-serif;
+  width: 75px;
+  font-size: small;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+  flex-shrink: 0;
+  border: none;
+}
+
+.add-task-btn:hover {
+  background-color: var(--btn-hover);
+}
+
+.toggle-btn {
+  margin-left: auto;
+}
+
+.add-task {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 50px;
+  padding: 0 25px;
+  gap: 10px;
+}
+
+.add-task-input {
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid var(--btn-hover);
+  width: 55%;
+  background-color: var(--bg-card);
+  color: var(--task-text);
+}
+
+input::placeholder {
+  color: var(--text-muted);
+}

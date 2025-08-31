@@ -1,0 +1,42 @@
+:root {
+    --bg-main: #E6F2E6;
+    --bg-card: #D2EBD2;
+    --text-main: #1B5E20;
+    --task-text: #2E3C2E;
+    --accent-box: #2E7D32;
+    --text-line: #4caf50;
+    --text-muted: #aaa;
+    --item-hover: #c8e6c9;
+    --bg-icon: #66BB6A;
+    --edit-hover: #46a049;
+    --delete-hover: #C62828;
+    --filter-color: #4caf50;
+    --filter-hover: #a5d6a7;
+    --filter-action: #388e3c;
+    --action-btn-color: #fff;
+    --bg-btn: #4CAF50;
+    --btn-hover: #388E3C;
+    --shadow-main: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+body.dark-mode {
+    --bg-main: #1a1f1a;
+    --bg-card: #223322;
+    --text-main: #c8e6c9;
+    --task-text: #a5d6a7;
+    --accent-box: #4caf50;
+    --text-line: #81c784;
+    --text-muted: #888;
+    --item-hover: #2e4730;
+    --bg-icon: #388e3c;
+    --edit-hover: #2e7d32;
+    --delete-hover: #b71c1c;
+    --filter-color: #81c784;
+    --filter-hover: #4caf50;
+    --filter-action: #66bb6a;
+    --action-btn-color: #fff;
+    --bg-btn: #4caf50;
+    --btn-hover: #388e3c;
+    --shadow-main: 0 4px 12px rgba(255, 255, 255, 0.04);
+
+}

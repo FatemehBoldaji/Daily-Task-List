@@ -1,0 +1,35 @@
+.switch-theme {
+  position: absolute;
+  top: 15px;
+  right: 0;
+  cursor: pointer;
+  width: 30px;
+  height: 10px;
+  background-color: var(--accent-box);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.switch-toggle {
+  width: 16px;
+  height: 16px;
+  background-color: var(--bg-icon);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+  color: var(--action-btn-color);
+  font-size: 10px;
+}
+
+.switch-toggle.light {
+  transform: translateX(0);
+}
+
+.switch-toggle.dark {
+  transform: translateX(15px);
+}
