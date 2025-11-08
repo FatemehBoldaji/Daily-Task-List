@@ -10,7 +10,6 @@ import { ThemeToggle } from './components/ThemeToggle';
 function App() {
 
   const [isDark, setIsDark] = useState(false)
-
   const toggleTheme = () => {
     setIsDark(!isDark)
     document.body.classList.toggle("dark-mode")
